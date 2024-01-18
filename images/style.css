@@ -95,7 +95,7 @@
     .emdiv_class {
         display: flex;
         justify-content: space-between;
-        height: 15cm;
+        height: 15.5cm;
         margin: 1cm 0.6cm;
         border-radius: 0.5cm;
         background-color: rgb(230, 235, 235);
@@ -163,4 +163,23 @@
         font-family: tahoma;
         font-size: 0.45cm;
         font-weight: 600;
+    }
+    .emdivclass img {
+        width: 15cm;
+        margin-top: 0.5cm;
+        margin-left: 0.7cm;
+    }
+    .emdivclass button {
+        font-style: italic;
+        font-family: tahoma;
+        font-size: 0.35cm;
+        font-weight: 600;
+        width: 4.5cm;
+        height: 1.1cm;
+        border-radius: 0.5cm;
+        border: 0;
+        margin-left: 0.8cm;
+        margin-top: 0.5cm;
+        background-color: rgb(211, 204, 204);
+        color: rgb(66, 65, 65);
     }
