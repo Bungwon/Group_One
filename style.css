@@ -11,7 +11,7 @@
 }
 .emdiv_menu ul {
     display: flex;
-    gap: 0.5cm;
+    gap: 0.3cm;
 }
 .emdiv_menu li {
     list-style: none;
@@ -26,6 +26,7 @@
     width: 6cm;
     font-style: italic;
     font-family: tahoma;
+    font-weight: 600;
 }
 .logo_class p {
     display: flex;
@@ -38,7 +39,8 @@
     color: black;
     font-style: italic;
     font-family: tahoma;
-    font-size: 0.4cm;
+    font-weight: 600;
+    font-size: 0.35cm;
 
 }
 .emdiv_menu img {
@@ -53,5 +55,18 @@
 .logo_class {
     background-color: black;
     border-radius: 0.9cm;
-    margin-top: -0.3cm;
+    margin-top: -0.29cm;
+}
+.emsection_menu {
+    display: flex;
+    justify-content: center;
+    height: 1.3cm;
+    line-height: 2.8;
+    font-size: 0.47cm;
+    font-family: Heebo, sans-serif;
+    color: white;
+    background-color:     rgb(55, 82, 163);
+}
+.emsection_menu a {
+    color: white;
 }
