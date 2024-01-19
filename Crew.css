@@ -1,9 +1,17 @@
 .navbar{
     display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding: 2% 5%;
 }
 .Rightnav{
     display: flex;
     gap: 20px;
+}
+.Rightnavv{
+    text-decoration: none;
+    color: gray;
+    list-style-type: none;
 }
 .body{
     display: flex;

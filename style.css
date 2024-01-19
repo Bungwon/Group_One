@@ -1,72 +1,60 @@
-.emsection_menu{  
-    padding: 0;
-    margin: 0;
-}
-.emnav_menu {
+.navbar{
     display: flex;
     justify-content: space-between;
-    margin: 0cm 0.5cm;
-    height: 1.3cm;
-    padding-top: 0.7cm;
+    color: gray;
+    padding: 2% 5%;
 }
-.emdiv_menu ul {
+.Rightnav{
     display: flex;
-    gap: 0.3cm;
+    gap: 20px;
 }
-.emdiv_menu li {
-    list-style: none;
-}
-
-.emdiv_menu button {
-    border-radius: 0.4cm;
-    border: 0;
-    background-color: black;
-    color: white;
-    height: 1cm;
-    width: 6cm;
-    font-style: italic;
-    font-family: tahoma;
-    font-weight: 600;
-}
-.logo_class p {
-    display: flex;
-    gap: 0.5cm;
-    color: white;
-    padding: 0.3cm 0.2cm;
-}
-.emdiv_menu a {
+.Rightnavv{
     text-decoration: none;
-    color: black;
-    font-style: italic;
-    font-family: tahoma;
-    font-weight: 600;
-    font-size: 0.35cm;
-
+    color: gray;
+    list-style-type: none;
 }
-.emdiv_menu img {
-    width: 0.5cm;
-}
-.emnav_logo {
-    margin-top: -0.112cm;
-}
-.emnav_logo img {
-    width: 5cm;
-}
-.logo_class {
-    background-color: black;
-    border-radius: 0.9cm;
-    margin-top: -0.29cm;
-}
-.emsection_menu {
+.body{
     display: flex;
-    justify-content: center;
-    height: 1.3cm;
-    line-height: 2.8;
-    font-size: 0.47cm;
-    font-family: Heebo, sans-serif;
-    color: white;
-    background-color:     rgb(55, 82, 163);
 }
-.emsection_menu a {
-    color: white;
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 50%;
+    height: 400px;
+    padding-top: 200px;
+    padding-left: 115px;
+}
+.Crew{
+    background-image: url(./home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:950px;
+}
+.body img{
+    height: 75%;
+}
+.Meet{
+    color: #fff;
+    padding: 150px 0 0 115px;
+    font-size: 50px;
+}
+.caption h3{
+    color: gray;
+    text-align: left;
+}
+.caption h1{
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+}
+.caption p{
+    color: hwb(0 78% 21%);
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
 }
