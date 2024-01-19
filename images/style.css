@@ -183,3 +183,22 @@
         background-color: rgb(211, 204, 204);
         color: rgb(66, 65, 65);
     }
+    .embrief {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.3cm 0.8cm;
+    }
+    .embrief div {
+        width: 50%;
+    }
+    .embrief1 {
+        height: 21cm;
+        background-color: rgb(230, 235, 235);
+        border-radius: 0.5cm;
+    }
+    .embrief2 {
+        height: 21cm;
+        background-color: rgb(230, 235, 235);
+        border-radius: 0.5cm;
+        margin-left: 0.4cm;
+    }
