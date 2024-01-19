@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding: 2% 5%;
+}
+.Rightnav{
+    display: flex;
+    gap: 20px;
+}
+.Rightnavv{
+    text-decoration: none;
+    color: gray;
+    list-style-type: none;
+}
+body{
+    margin:0;
+    font-family: Tahoma;
+}
+
+.jamz{
+    height:675px;
+    background-image: url(./destination/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1080px;
+}
+
+.jamz1{
+    color: white;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 1030px;
+}
+
+.jamz2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 1080px;
+    height: 500px;
+    margin: 0;
+}
+
+.jamz3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    align-items: normal;
+    margin-top: 180px;
+    padding-right: px;
+    margin-left: 50px;
+}
+
+.jamz4{
+    width: 360px;
+    font-size: 12px;
+}
+
+.jamz5{
+    font-size: 45px;
+    width: 360px;
+}
+
+.jamz6{
+    width: 360px;
+    font-size: 15px;
+    height: auto;
+    font-family: tahoma;
+    
+}
+
+.jamz7{
+    width: 600px;
+    background-image: url(./destination/Vehicle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-left: 100px;
+}
